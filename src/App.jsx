@@ -1,12 +1,9 @@
-import Body from "./Body/Body"
-import Header from "./Header/Header"
-
+import AppRoutes from "./routes"
 
 function App() {
   return (
     <>
-      <Header />
-      <Body />
+      <AppRoutes />
     </>
   )
 }
